@@ -47,6 +47,21 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        helper: {
+          primary: "hsl(var(--helper-primary))",
+          secondary: "hsl(var(--helper-secondary))",
+          light: "hsl(var(--helper-light))",
+        },
+        emergency: {
+          primary: "hsl(var(--emergency-primary))",
+          secondary: "hsl(var(--emergency-secondary))",
+          light: "hsl(var(--emergency-light))",
+        },
+        status: {
+          active: "hsl(var(--status-active))",
+          standby: "hsl(var(--status-standby))",
+          offline: "hsl(var(--status-offline))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
